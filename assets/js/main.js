@@ -1,14 +1,4 @@
-/*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 var parallelism = (function($) { var _ = {
-
-	/******************************/
-	/* Properties                 */
-	/******************************/
 
 		// Settings
 			settings: {
@@ -111,10 +101,6 @@ var parallelism = (function($) { var _ = {
 
 		// Object cache.
 			objects: {},
-
-	/******************************/
-	/* Methods                    */
-	/******************************/
 
 		// Initializes desktop mode.
 			initDesktop: function() {

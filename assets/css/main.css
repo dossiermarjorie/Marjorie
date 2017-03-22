@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
 @import url("font-awesome.min.css");
 
-/*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
-
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -47,17 +39,11 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-
-/* Box Model */
-
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
-/* Basic */
-
 	body {
 		position: relative;
 		background-color: #12151D;
@@ -103,9 +89,6 @@
 		color: rgba(255, 255, 255, 0.85);
 		font-weight: 600;
 	}
-
-/* List */
-
 	ul.contact {
 		cursor: default;
 		margin: 0 0 1em 0;
@@ -132,9 +115,6 @@
 				ul.contact li a:hover {
 					opacity: 1.0;
 				}
-
-/* Item */
-
 	.item.thumb {
 		display: block;
 		position: relative;
@@ -161,8 +141,6 @@
 			z-index: 1;
 		}
 
-/* Icons */
-
 	.icon {
 		position: relative;
 		text-decoration: none;
@@ -181,16 +159,10 @@
 			display: none;
 		}
 
-/* Wrapper */
-
 	#wrapper {
 		position: relative;
 		z-index: 1;
 	}
-
-/* Main */
-
-/* Header */
 
 	#header {
 		position: relative;
@@ -202,9 +174,6 @@
 		#header p {
 			opacity: 0.65;
 		}
-
-/* Desktop */
-
 	@media screen and (min-width: 737px) {
 
 		/* Basic */
@@ -470,13 +439,9 @@
 				line-height: 1.75em;
 			}
 
-		/* List */
-
 			ul.contact li {
 				margin: 0 0.35em 0 0.35em;
 			}
-
-		/* Item */
 
 			.item {
 				border: 0;
@@ -505,16 +470,12 @@
 						display: none;
 					}
 
-		/* Wrapper */
-
 			#wrapper.overlayed {
 				-moz-filter: blur(1px);
 				-webkit-filter: blur(1px);
 				-ms-filter: blur(1px);
 				filter: blur(1px);
 			}
-
-		/* Header */
 
 			#header {
 				padding: 2.5em 1.5em;
@@ -531,13 +492,9 @@
 					margin: 0.75em 0 0 0;
 				}
 
-		/* Main */
-
 			#main {
 				overflow: hidden;
 			}
-
-		/* Footer */
 
 			#footer {
 				padding: 4em 1em;
@@ -557,8 +514,6 @@
 				#footer .copyright {
 					margin: 2em 0 0 0;
 				}
-
-		/* Popup */
 
 			.poptrox-popup {
 				background: #0a0f1c;
